@@ -1,0 +1,7 @@
+controller：http（GET和POST等）请求的入口，调用Service，想客户端返回数据
+
+dao：接口，定义了数据表映射成的对象，具有的操作
+
+mapping：具体是sql语句，以xml格式存在，即mybatis的语法文件
+
+service：controller调用的服务，service调用dao里面定义的数据库行为方法，来执行对应mapping里的mybatis，从而完成与数据库完整的交互
